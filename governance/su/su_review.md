@@ -85,3 +85,39 @@ La entrevista capturó información suficiente de negocio en dos fases (Fase 1 y
 - **Criterios de rechazo automático presentes:** NO
 - **Número de gaps críticos:** 0 (NEGOCIO: 0, TÉCNICO: 0, AMBOS: 0)
 - **Todos los gaps son TÉCNICOS:** N/A — veredicto APROBADO; los pendientes técnicos (validación de datos con Carlos López, stack tecnológico) deben resolverse antes del BRD/specDD, no bloquean la aprobación del SU.
+
+---
+
+## Auditoría doc_auditor — v1
+
+**Fecha:** 2026-05-10
+**Draft auditado:** governance/su/su_draft_v1.md
+
+### Gaps detectados
+
+| Sección del draft | Tipo | Severidad | Descripción del gap | Corrección recomendada |
+|------------------|------|-----------|--------------------|-----------------------|
+| 3. Impacto cuantificado | Incompleto | MENOR | El valor económico de los contratos perdidos no está cuantificado en unidades monetarias. Solo se indica "2 contratos pequeños" y "riesgo alto de pérdida adicional" sin monto asociado. | El SPONSOR debe proveer estimación del valor monetario de los 2 contratos perdidos. Si no es posible, documentar como "valor no disponible" con justificación. |
+| 5. Stakeholders | Incompleto | MENOR | El CTO aparece como "Alineación estratégica" sin nombre completo ni identificación formal. Si tiene rol de aprobación obligatoria, su identidad debe estar documentada. | Obtener y registrar el nombre completo y cargo formal del CTO. Si su rol es solo de alineación, documentarlo como "alineación informativa — no bloquea aprobación". |
+| 6. Datos disponibles | Incompleto | MENOR | La estructura de la base de datos (nombre de tablas, esquema, campos exactos), la completitud real de los 150 registros y las credenciales de acceso fueron declaradas por el SPONSOR sin validación del TECNICO (Carlos López). | Carlos López debe confirmar: nombre de BD y esquema, nombre exacto de tablas y campos, completitud del histórico, condiciones de acceso para el equipo. Antes del BRD. |
+| 8. Restricciones y riesgos | Incompleto | MENOR | El stack tecnológico fue declarado con lenguaje tentativo ("Python con scikit-learn o similar", "AWS o plataforma cloud equivalente"). El mecanismo de control de acceso en producción no está definido. | Carlos López debe confirmar el stack definitivo antes del BRD. El mecanismo de control de acceso debe quedar especificado antes del inicio del diseño. |
+
+### Contradicciones detectadas
+
+Sin contradicciones detectadas.
+
+### Criterios de rechazo automático
+
+| CRA | Criterio | ¿Presente? |
+|-----|---------|-----------|
+| CRA-1 | Problema como solución técnica | NO |
+| CRA-2 | Sin stakeholder aprobador nombrado | NO |
+| CRA-3 | Alcance sin límites claros (sin FUERA) | NO |
+| CRA-4 | Sin métrica cuantificable de éxito | NO |
+
+### Resumen cuantitativo doc_auditor
+
+- **Gaps CRITICOS:** 0
+- **Gaps MENORES:** 4
+- **Contradicciones:** 0
+- **Criterios de rechazo automático presentes:** 0 de 4

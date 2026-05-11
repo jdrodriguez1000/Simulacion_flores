@@ -3,7 +3,7 @@
   "documents": {
     "su": {
       "status": "in_progress",
-      "phase": "evaluator",
+      "phase": "human_approval",
       "iteration_count": 1,
       "current_draft": "governance/su/su_draft_v1.md",
       "complexity": "low",
