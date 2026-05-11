@@ -17,3 +17,7 @@
 [2026-05-10 21:05] doc_orchestrator: iteration_count incrementado a 1. Invocando su_synthesizer para generar su_draft_v1.md.
 [2026-05-10 21:10] su_synthesizer: su_draft_v1.md generado. Version: v1. Alertas detectadas: 0. Gaps criticos: 0. Secciones con marcado: 6 (3 PENDIENTE VALIDACION, 2 PENDIENTE validacion tecnica con Carlos Lopez, 2 AMBIGUO). Extended Thinking: no activado. Complexity=low, iteration_count=1.
 [2026-05-10 21:08] doc_orchestrator: lanzando su_evaluator y doc_auditor en paralelo para su_draft_v1.md.
+[2026-05-11 02:10] doc_auditor: Extended Thinking: no activado. Complexity=low.
+[2026-05-11 02:11] doc_auditor: auditoria v1 completada. Gaps CRITICOS: 0, Gaps MENORES: 4, Contradicciones: 0, CRA presentes: 0 de 4. Archivo: governance/su/su_audit_v1.md
+[2026-05-10 21:15] su_evaluator: Extended Thinking: no activado. Complexity=low.
+[2026-05-10 21:15] su_evaluator: draft v1 evaluado. Score: 0.84. Veredicto: APROBADO. Gaps criticos: 0. Archivo: governance/su/su_review.md
