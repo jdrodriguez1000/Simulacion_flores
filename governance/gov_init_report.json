@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-05-10T20:59:07",
+  "status": "warning",
+  "checks": {
+    "state_files_valid": true,
+    "state_files_readable": true,
+    "git_available": true,
+    "governance_su_dir_exists": true,
+    "sprint_contract_exists": true,
+    "github_remote_configured": true,
+    "github_remote_reachable": false,
+    "filesystem_consistent": true
+  },
+  "inconsistencies": [
+    "El remoto 'origin' existe pero no es alcanzable (exit code 2). Verificar conectividad o credenciales."
+  ],
+  "recommended_action": "auto_repair_and_continue"
+}

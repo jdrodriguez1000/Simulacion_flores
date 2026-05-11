@@ -1,0 +1,17 @@
+{
+  "active_document": "su",
+  "documents": {
+    "su": {
+      "status": "pending",
+      "phase": "interview_phase1",
+      "iteration_count": 0,
+      "current_draft": null
+    },
+    "brd": { "status": "pending", "phase": null },
+    "bdd": { "status": "pending", "phase": null },
+    "sad": { "status": "pending", "phase": null },
+    "specdd": { "status": "pending", "phase": null },
+    "feasibility": { "status": "pending", "phase": null },
+    "backlog": { "status": "pending", "phase": null }
+  }
+}
