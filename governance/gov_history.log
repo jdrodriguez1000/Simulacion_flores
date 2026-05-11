@@ -16,3 +16,4 @@
 [2026-05-10 21:05] doc_orchestrator: needs_analysis completado. confidence=0.90 (LISTO). Gaps: 0 CRITICOS, 2 MENORES, 0 AUSENTES. Procediendo a sintesis directamente.
 [2026-05-10 21:05] doc_orchestrator: iteration_count incrementado a 1. Invocando su_synthesizer para generar su_draft_v1.md.
 [2026-05-10 21:10] su_synthesizer: su_draft_v1.md generado. Version: v1. Alertas detectadas: 0. Gaps criticos: 0. Secciones con marcado: 6 (3 PENDIENTE VALIDACION, 2 PENDIENTE validacion tecnica con Carlos Lopez, 2 AMBIGUO). Extended Thinking: no activado. Complexity=low, iteration_count=1.
+[2026-05-10 21:08] doc_orchestrator: lanzando su_evaluator y doc_auditor en paralelo para su_draft_v1.md.

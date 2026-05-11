@@ -3,12 +3,17 @@
   "documents": {
     "su": {
       "status": "in_progress",
-      "phase": "needs_analysis",
-      "iteration_count": 0,
-      "current_draft": null,
+      "phase": "evaluator",
+      "iteration_count": 1,
+      "current_draft": "governance/su/su_draft_v1.md",
       "complexity": "low",
       "complexity_signals": [],
       "cb_threshold": 2,
+      "needs_analyzer_confidence": 0.90,
+      "needs_analyzer_level": "LISTO",
+      "gaps_criticos": 0,
+      "gaps_menores": 2,
+      "gaps_ausentes": 0,
       "stakeholders_mapeados": [
         {"nombre": "Javier D. Rodriguez", "cargo": "Gerente de Proyectos de ML", "tipo": "SPONSOR", "disponible": true},
         {"nombre": "Carlos Lopez", "cargo": "Ingeniero de Datos", "tipo": "TECNICO", "disponible": true},
