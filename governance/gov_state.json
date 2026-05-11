@@ -2,10 +2,13 @@
   "active_document": "su",
   "documents": {
     "su": {
-      "status": "in_progress",
-      "phase": "human_approval",
+      "status": "approved",
+      "phase": "approved",
       "iteration_count": 1,
       "current_draft": "governance/su/su_draft_v1.md",
+      "approved_path": "governance/su/su_approved.md",
+      "approved_date": "2026-05-10",
+      "final_score": 0.84,
       "complexity": "low",
       "complexity_signals": [],
       "cb_threshold": 2,
