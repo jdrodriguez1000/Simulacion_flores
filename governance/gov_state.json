@@ -3,9 +3,12 @@
   "documents": {
     "su": {
       "status": "in_progress",
-      "phase": "interview_phase2",
+      "phase": "needs_analysis",
       "iteration_count": 0,
       "current_draft": null,
+      "complexity": "low",
+      "complexity_signals": [],
+      "cb_threshold": 2,
       "stakeholders_mapeados": [
         {"nombre": "Javier D. Rodriguez", "cargo": "Gerente de Proyectos de ML", "tipo": "SPONSOR", "disponible": true},
         {"nombre": "Carlos Lopez", "cargo": "Ingeniero de Datos", "tipo": "TECNICO", "disponible": true},
