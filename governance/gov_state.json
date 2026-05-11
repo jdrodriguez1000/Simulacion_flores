@@ -2,10 +2,15 @@
   "active_document": "su",
   "documents": {
     "su": {
-      "status": "pending",
-      "phase": "interview_phase1",
+      "status": "in_progress",
+      "phase": "interview_phase2",
       "iteration_count": 0,
-      "current_draft": null
+      "current_draft": null,
+      "stakeholders_mapeados": [
+        {"nombre": "Javier D. Rodriguez", "cargo": "Gerente de Proyectos de ML", "tipo": "SPONSOR", "disponible": true},
+        {"nombre": "Carlos Lopez", "cargo": "Ingeniero de Datos", "tipo": "TECNICO", "disponible": true},
+        {"nombre": "Maria Garcia", "cargo": "Especialista en Operaciones", "tipo": "USUARIO", "disponible": true}
+      ]
     },
     "brd": { "status": "pending", "phase": null },
     "bdd": { "status": "pending", "phase": null },
