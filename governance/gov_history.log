@@ -6,3 +6,5 @@
 [2026-05-10 14:00] su_interviewer: Fase 0 completada. Stakeholders mapeados: SPONSOR=Javier D. Rodríguez, TECNICO=Carlos López/disponible=S, USUARIO=María García/disponible=S
 [2026-05-10 14:19] su_interviewer: Fase 1 completada. 5 respuestas capturadas en su_interview.md (secciones 1.1–1.5). Commit: SU Phase1 interview completed
 [2026-05-10 21:00] doc_orchestrator: stakeholders_mapeados guardados en gov_state.json. TECNICO disponible: S (Carlos Lopez). USUARIO disponible: S (Maria Garcia). gov_state.json actualizado a phase=interview_phase2.
+[2026-05-10 21:01] doc_orchestrator: complejidad clasificada como LOW (0 senales P6-1). Senales: ninguna. cb_threshold=2. gov_state.json actualizado.
+[2026-05-10 14:59] su_interviewer: Fase 2 completada. Modo P6-2 adaptativo aplicado: complexity=low, preguntas estándar 2.1–2.8 ejecutadas. Secciones 2.1 (cubierto en F1), 2.2–2.8 completadas con 8 secciones. Respuestas documentadas en su_interview.md. Commit: SU Phase2 interview completed
