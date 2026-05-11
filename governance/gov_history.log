@@ -2,3 +2,6 @@
 [2026-05-10 20:54] doc_orchestrator: Bootstrapping completado. Infraestructura creada: governance/su/, gov_progress.txt, gov_history.log, gov_state.json, project_state.json, su_sprint_contract.md. Git inicializado. Remote origin configurado: https://github.com/jdrodriguez1000/Simulacion_flores.git. github_remote_configured=true.
 [2026-05-10 20:59] doc_orchestrator: gov_init.py (post-bootstrap) status=warning. Issue: remote origin no es alcanzable. Operador informado (U010). Continuando en modo local sin push. Variable de sesion: github_remote_configured=true (push fallara con warning, flujo no se detiene).
 [2026-05-10 20:59] doc_orchestrator: sesion iniciada. gov_state.json indica su.phase=interview_phase1. Plan guardado en gov_progress.txt.
+[2026-05-10 20:59] doc_orchestrator: Push a origin: ok — bootstrap commit. Remote alcanzable. github_remote_configured=true (reachable).
+[2026-05-10 14:00] su_interviewer: Fase 0 completada. Stakeholders mapeados: SPONSOR=Javier D. Rodríguez, TECNICO=Carlos López/disponible=S, USUARIO=María García/disponible=S
+[2026-05-10 14:19] su_interviewer: Fase 1 completada. 5 respuestas capturadas en su_interview.md (secciones 1.1–1.5)
