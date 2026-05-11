@@ -1,0 +1,34 @@
+{
+  "harness": "governance",
+  "document": "su",
+  "generated_at": "2026-05-10",
+  "complexity": "low",
+  "eficacia": {
+    "gap_escape_rate": 0.0,
+    "first_pass_approval_rate": 1.0,
+    "rubric_final_score": 0.84,
+    "dimension_weak_rate": 0.0
+  },
+  "eficiencia": {
+    "avg_iteration_count": 1.0,
+    "iteration_count_su": 1
+  },
+  "robustez": {
+    "agent_failure_rate": 0.0,
+    "circuit_breaker_activations": 0,
+    "checkpoint_resumptions": 0
+  },
+  "calidad_ia": {
+    "evaluator_human_agreement": 1.0,
+    "avg_confidence_at_synthesis": 0.90,
+    "confidence_iteration_correlation": "n/a — un solo documento disponible"
+  },
+  "satisfaccion": {
+    "human_rejection_count": 0
+  },
+  "valor_negocio": {
+    "interview_completeness": 1.0
+  },
+  "alerts": [],
+  "alerts_count": 0
+}
